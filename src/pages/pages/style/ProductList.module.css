@@ -1,0 +1,29 @@
+.container {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 120px;
+    margin-left:auto ;
+    margin-right: auto;
+    width: 100%;
+    min-height: 65vh;
+
+}
+
+.title {
+    padding: 10px;
+    text-align: center;
+}
+.title h1 {
+    font-size: 30px;
+    line-height: 34px;
+    display: block;
+    font-weight: 900;
+    font-family: "Hind",sans-serif;
+    color: #191919;
+    margin-bottom: 10px;
+}
+@media screen  and (max-width: 1010px){
+    .container{
+text-align: center;
+    }
+}
