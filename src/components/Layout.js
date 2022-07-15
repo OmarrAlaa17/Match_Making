@@ -7,7 +7,7 @@ const Layout = () => {
        <div className={classes.textBox}>
           <h1> Match Maker</h1>
           <h2> Your path for more underestanding ..</h2>
-                <a className={classes.btn} href="#">
+                <a className={classes.btn} href="#Isi section">
                     <span></span>
                     <span></span>
                     <span></span>

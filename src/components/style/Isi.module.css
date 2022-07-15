@@ -1,0 +1,60 @@
+.isi {
+    text-align: center;
+    color: #06283D;
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 2rem 2rem;
+    transition: .5s ease;
+
+    background-color: rgb(246, 246, 246);
+    border-bottom: 0.4px solid;
+    border-color: rgba(247, 160, 84, 0.4);
+}
+
+.isi p {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    color: rgb(6, 40, 61);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: larger;
+}
+
+
+.infContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+.txtContainer {
+    width: 50rem;
+    padding: 5rem;
+    box-shadow: 0 0 2px rgb(58, 180, 242,0.637);
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+.txtContainer img {
+    width: 40rem;
+}
+
+.txtContainer img:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px #F6F6F6,
+                0 0 10px #F2DF3A,
+                0 0 20px #3AB4F2;
+}
+
+.txtContainer h4{
+    font-size: 2.1rem;
+    color: #0078AA;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+    top: 5%;
+    position: relative;
+}
